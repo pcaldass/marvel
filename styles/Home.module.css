@@ -1,0 +1,21 @@
+.container {
+  margin-top: 20vh;
+}
+.title {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-size: 3em;
+  color: #fffdd9;
+  font-weight: 700;
+}
+
+.video {
+  position: absolute;
+  width: 100vw;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}

@@ -1,0 +1,19 @@
+.title {
+  color: white;
+  text-align: center;
+  margin: 15vh 0px
+}
+.subtitle {
+  color:white;
+  margin-left: 5.5vw;
+  margin-top: 5vh
+}
+.container,
+.containerComics {
+  background: rgba(0, 0, 0, 0.8) url(../public/personagens_marvel.png);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.containerComics {
+  background: rgba(0, 0, 0, 0.8) url(../public/marvel_comics.jpg);
+}
